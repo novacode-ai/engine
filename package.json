@@ -1,0 +1,17 @@
+{
+  "name": "@novacode-ai/engine",
+  "version": "1.0.0",
+  "description": "The core LLM reasoning engine for Nova Code",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": { "build": "tsc" },
+  "dependencies": {
+    "@novacode-ai/types": "workspace:*",
+    "@novacode-ai/providers": "workspace:*",
+    "@novacode-ai/tools": "workspace:*",
+    "ai": "^3.4.0",
+    "@ai-sdk/openai": "^0.0.60",
+    "zod": "^3.23.8"
+  }
+}
